@@ -1,0 +1,10 @@
+[package]
+name = "headers-accumulators"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+accumulators = { path = "/home/ametel/source/rust-accumulators", features = [
+    "all",
+] }
+tokio = { version = "1", features = ["full"] }
