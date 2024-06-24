@@ -5,6 +5,8 @@ version = 3
 [[package]]
 name = "accumulators"
 version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "87049878113a605204d33cca912a7a5f5c95036ed8ce078853a162548ea8964e"
 dependencies = [
  "async-trait",
  "hex",
